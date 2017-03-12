@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script language="JavaScript" type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+ <!-- Insert to your webpage before the </head> -->
+    <script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/jquery.js"></script>
+    <script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/amazingslider.js"></script>
+    <script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body">
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="navbar-brand" src="Adidas-Logo-880x660.png"></img>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">HOMBRE <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">MUJER</a></li>
+		<li><a href="#">NIÑOS</a></li>
+		<li><a href="#">DEPORTES</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MARCAS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.fiverr.com/users/irfan_web/manage_gigs">Action</a></li>
+            <li><a href="#">Originals</a></li>
+            <li><a href="#">FindFocus</a></li>
+            <li><a href="#">Stella McCartney</a></li>
+            <li><a href="#">Porche Design Sport</a></li>
+            <li><a href="#">Adidas Neo</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+		<form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<div class="jumbotron bg">
+  <h1 class="text-center" id="titulo">Find your favorite shoes</h1>
+  <p class="text-center" id="subtitulo">Insert an image of a shoe and we will tell you which model it is.</p>
+  <div class="container">
+    <div class="row">    
+        <div class="col-xs-12 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">  
+            <!-- image-preview-filename input [CUT FROM HERE]-->
+            <div class="input-group image-preview">
+                <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
+                <span class="input-group-btn">
+                    <!-- image-preview-clear button -->
+                    <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                        <span class="glyphicon glyphicon-remove"></span> Clear
+                    </button>
+                    <!-- image-preview-input -->
+                    <div class="btn btn-default image-preview-input">
+                        <span class="glyphicon glyphicon-folder-open"></span>
+                        <span class="image-preview-input-title">Browse</span>
+                        <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/> <!-- rename it -->
+                    </div>
+                </span>
+            </div><!-- /input-group image-preview [TO HERE]--> 
+        </div>
+    </div>
+</div>
+</div>
+		<div id="risas">
+			<div class="row topspace">
+				<div class="col-md-10">
+					<!-- Insert to your webpage where you want to display the slider -->
+					<div id="amazingslider-1">
+						<ul class="amazingslider-slides" style="display:none;">
+							<li><img src="dqwdqwd.jpg" alt="Picture 1" /></li>
+							<li><img src="adidas_banner_grey.jpg" alt="Picture 2" /></li>
+							<li><img src="A-BANNER.jpg" alt="Picture 3" /> </li>
+							<li><img src="banner.jpg" alt="Picture 4" /></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="container">
+    <section style="height:80px;"></section>
+	<div class="row" style="text-align:center;">
+	</div>
+    <!----------- Footer ------------>
+    <footer class="footer-bs">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+            	<h2>Adidas</h2>
+                <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
+                <p>© 2014 BS3 UI Kit, All rights reserved</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4>Menu —</h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="#">Hombre</a></li>
+                        <li><a href="#">Mujer</a></li>
+                        <li><a href="#">Niños</a></li>
+                        <li><a href="#">Zapatillas</a></li>
+                        <li><a href="#">Marcas</a></li>
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Terminos y Condiciones</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>Siguenos en</h4>
+            	<ul>
+                	<li><a href="#">Facebook</a></li>
+                	<li><a href="#">Twitter</a></li>
+                	<li><a href="#">Instagram</a></li>
+                	<li><a href="#">RSS</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4>Unete a nosotros</h4>
+                <p>Unete a nosotros y consigue un regalo de bienvenida</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="TU EMAIL...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                      </span>
+                    </div><!-- /input-group -->
+                 </p>
+            </div>
+        </div>
+    </footer>
+    <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="http://enfoplus.net">Prince J. Sargbah</a></p></section>
+
+</div>
+
+
+</body>
+</html>
